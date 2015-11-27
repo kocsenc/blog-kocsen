@@ -62,6 +62,7 @@ I don't want to get to deep into this because PC Engines and PF Sense documentat
 1. Install BSD on APU board.
 
 Read at least:
+
 * This [guide][pf-guide]
 * [APU Documentation][pc-apu] -> Find it with your model, it's a `.pdf`.
 
