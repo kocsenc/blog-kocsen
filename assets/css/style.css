@@ -1,0 +1,221 @@
+/* Icons */
+@font-face {
+    font-family: 'icons';
+        src: url('../fonts/icons.eot');
+        src: url('../fonts/icons.eot#iefix') format('embedded-opentype'),
+        url('../fonts/icons.woff') format('woff'),
+        url('../fonts/icons.ttf') format('truetype'),
+        url('../fonts/icons.svg#icons') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"]:before, [class*=" icon-"]:before {
+    font-family: "icons";
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+    display: inline-block;
+    text-decoration: inherit;
+    text-align: center;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1em;
+}
+.icon-facebook:before { content: '\e802'; }
+.icon-facebook-squared:before { content: '\e800'; }
+.icon-twitter:before { content: '\e801'; }
+.icon-twitter-1:before { content: '\e804'; }
+.icon-facebook-circled:before { content: '\e805'; }
+.icon-twitter-circled:before { content: '\e806'; }
+.icon-facebook-rect:before { content: '\e803'; }
+
+/* Base */
+body {
+    font:16px/1 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #666;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+
+h1 {
+    font-size: 30px;
+    letter-spacing: -1px;
+    color: #222;
+    font-weight: bold;
+}
+
+.profile #header {
+    border-bottom: 1px solid #eee;
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+    position: relative;
+}
+
+.profile #avatar {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.profile h1 {
+    font-weight: 400;
+    letter-spacing: 0px;
+    font-size: 20px;
+    color: #222;
+}
+
+.profile h2 {
+    font-size: 20px;
+      font-weight: 300;
+      color: #aaa;
+      margin-top: 10px;
+      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      font-style: normal;
+
+}
+
+/* Typography */
+/* Line Height */
+#post-body, p { line-height:1.4; }
+
+b, strong { font-weight: 500;
+  color: #1E2025; }
+em, i { font-style: italic; }
+
+#title {
+    display: inline-block;
+    line-height: 100%;
+    font-weight: 500;
+    font-size: 19px;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+.home h1 {
+    font-size: 30px;
+    letter-spacing: -1px;
+    color: #222;
+    font-weight: bold;
+}
+
+.post header {
+    text-align:center;
+
+}
+
+.post h1 {
+    margin-bottom: 20px;
+    color: #222;
+    font: 300 32px/1.4em "Helvetica Neue", Helvetica,Arial,sans-serif;
+}
+
+.post h2 {
+    margin-bottom: 40px;
+      font: 300 24px/1.5 "Helvetica Neue",Helvetica,Arial,sans-serif;
+      color: #111;
+}
+
+.headline {
+    /*font: italic 22px/1.3em Georgia,serif;*/
+    font: normal 13px/1.5em "Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #b2b9be;
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      /*margin-top: 15px;*/
+      display: inline-block;
+}
+
+#post-list h2 {
+    font: normal 17px/1.5em "Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #aaa;
+    max-width: 400px;
+    margin-top: 2px;
+}
+
+h3, h4, h5 { color:#333; }
+h3 { font-size:20px; font-weight: 400; }
+h4 { font-size:16px; font-weight:bold; }
+h5 { font-size:15px; font-weight: bold; }
+h6 {
+    font-size: 13px;
+    font-weight: bold;
+    color: #666;
+    margin-bottom: 6px;
+}
+
+p.small {
+    color: #bbb;
+    font-size: 14px;
+    line-height: 1.5;
+    display: block;
+}
+
+hr {
+    display: block;
+    border: none;
+    height: 1px;
+    margin: 40px auto;
+    background: #eee;
+}
+
+blockquote {
+    letter-spacing: 0px;
+}
+
+p code {
+    background-color: rgba(0, 0, 0, 0.04);
+}
+
+code{
+    color: black;
+}
+
+table {
+    width: 100%;
+    margin: 40px 0;
+    border-collapse: collapse;
+    font-size: 13px;
+    line-height: 1.5em;
+}
+
+th,td {
+    text-align: left;
+    padding-right: 20px;
+    vertical-align: top;
+}
+
+table td,td {
+    border-spacing: none;
+    border-style: solid;
+    padding: 10px 15px;
+    border-width: 1px 0 0 0;
+}
+
+tr>td {
+    border-top: 1px solid #eaeaea;
+}
+
+tr:nth-child(odd)>td {
+    background: #fcfcfc;
+}
+
+thead th,th {
+    text-align: left;
+    padding: 10px 15px;
+    height: 20px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #444;
+    border-bottom: 1px solid #dadadc;
+    cursor: default;
+    white-space: nowrap;
+}
+
+li {
+    padding: 2px;
+}
