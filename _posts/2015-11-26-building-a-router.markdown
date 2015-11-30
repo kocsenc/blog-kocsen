@@ -2,7 +2,6 @@
 layout: post
 title:  "Building a $600 Router for $300"
 date:   2015-11-26 10:42:15 -0500
-categories: jekyll update
 ---
 
 
