@@ -41,7 +41,7 @@ Easy. [PF Sense][pfsense-home]. It's basically the defacto for routing and even 
 1. `APU`: [A/C adapter](http://www.pcengines.ch/ac12vus.htm)
 1. `APU`: Memory. [mSATA SSD](http://www.pcengines.ch/msata16d.htm) or [SD Card](http://www.pcengines.ch/sd4b.htm)
 1. `APU`: [Null Modem Cable](http://www.pcengines.ch/db9cab1.htm) AND [USB to Serial](http://amzn.com/B00IDSM6BW) to interface with the `APU`.
-1. [If not using an AP] [miniPCI express wireless](http://www.pcengines.ch/wle200nx.htm) with appropriate antennaes and stuff. Not for me, I want my AP. 
+1. [If not using an AP] [miniPCI express wireless](http://www.pcengines.ch/wle200nx.htm) with appropriate antennaes and stuff. Not for me, I want my AP.
 1. `AP`: UniFi [UAP AC LITE][ac-lite]. I got it on [amazon]().
 1. `Software`: PF Sense -> Free, <3 open source.
 
@@ -51,6 +51,9 @@ Easy. [PF Sense][pfsense-home]. It's basically the defacto for routing and even 
 
 
 # Putting it together
+
+![PC Engines Box](/assets/materials.jpg)
+
 I don't want to get to deep into this because PC Engines and PF Sense documentation is great, so I'm listing a very general steps and resources.
 
 
@@ -69,21 +72,21 @@ Other more detailed guides found [here][G1] and [here][G2].
 
 I now have the full power of PFSense with capabilities for VPN server, Epic Firewall, Dyanmic DNS, and [more](https://www.pfsense.org/about-pfsense/features.html). Meanwhile I have an enterprise level AP dealing with IP assignation. Fun fact, that little guy also runs Linux - or some flavor, probably `BusyBox`.
 
-# Here's the finished product 
+# Here's the finished product
 
 ## TBP IMAGE HERE
 
 
 # Why did I do this?
 
-The main reason I did this was because at least once a week I had to restart my router, because it would just stop performing right. Dropping some connections, or slowing down speeds. 
-I was tired at the lack of performance. 
+The main reason I did this was because at least once a week I had to restart my router, because it would just stop performing right. Dropping some connections, or slowing down speeds.
+I was tired at the lack of performance.
 
 `<rant>`
 
 > "Kocsen, **why** would you ever build your own router? You can get a cheap Linksys Router for $30 bucks".
 
-And that's the problem. Consumer grade routers are literally *toys*. Even ones that are [over $200](http://www.linksys.com/us/p/P-WRT1900ACS/) have proprietary (and potentially *unsafe*) software along with sub-par hardware. 
+And that's the problem. Consumer grade routers are literally *toys*. Even ones that are [over $200](http://www.linksys.com/us/p/P-WRT1900ACS/) have proprietary (and potentially *unsafe*) software along with sub-par hardware.
 
 `</rant>`
 
